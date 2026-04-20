@@ -182,7 +182,7 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
           <div className="rounded-2xl border p-6 shadow-sm">
             <h3 className="mb-2 text-lg font-bold">Phase 2</h3>
             <p className="text-gray-600">
-              Government filings including L&amp;I claims, DHS requests, and
+              Government filings including L&amp;I claims, DSHS requests, and
               official submissions.
             </p>
           </div>
