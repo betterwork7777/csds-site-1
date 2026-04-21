@@ -14,7 +14,8 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
   )
   .then(() => {
     alert("Request sent successfully!");
-    e.currentTarget.reset();
+    const form = e.currentTarget as HTMLFormElement;
+form.reset();
   })
   .catch((error: any) => {
   alert(error?.text || error?.message || JSON.stringify(error));
